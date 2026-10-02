@@ -188,7 +188,7 @@ h6 {
         border: 2px solid black;
     }
 
-    .post :hover {
+    .post:hover {
         background-color: darkgreen;
         border: 4px solid yellowgreen;
         color: gold;
@@ -260,4 +260,36 @@ h6 {
     border-bottom: 1px solid darkgrey;
     overflow: auto;
     margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .about-section,
+    .Description,
+    .featured,
+    .Activity,
+    .experience,
+    .education {
+        width: 95%; 
+    }
+
+    .links,
+    .postcard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .top-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container {
+        margin-right: 0;
+        margin-top: 10px;
+    }
 }
