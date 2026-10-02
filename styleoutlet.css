@@ -4,8 +4,8 @@ body {
 
 @media (max-width: 768px) {
     .gallery {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 
         .superhero {
             width: 100%;
@@ -58,7 +58,7 @@ img:hover {
     height: 87%;
     justify-content: center;
     margin: 50px auto;
-    overflow: scroll;
+    overflow: auto;
 }
 
 button {
@@ -80,7 +80,7 @@ button {
 .content-container {
     display: flex;
     flex-flow: row no-wrap;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .description-container {
