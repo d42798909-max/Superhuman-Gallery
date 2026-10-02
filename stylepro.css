@@ -201,7 +201,7 @@ h6 {
     justify-content: center;
 }
 
-.card {
+.cards {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
