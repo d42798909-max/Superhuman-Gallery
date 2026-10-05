@@ -295,7 +295,7 @@ h6 {
     }
     .experiences h3,
     .educate h3 {
-        font-size: 14px;
+        font-size: 10px;
         flex-wrap: nowrap;
         overflow: auto;
     }
