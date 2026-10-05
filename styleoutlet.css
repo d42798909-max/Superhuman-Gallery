@@ -4,7 +4,6 @@ body {
 
 @media (max-width: 768px) {
     .gallery {
-        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
         .superhero {
