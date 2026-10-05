@@ -261,7 +261,15 @@ h6 {
     overflow: auto;
     margin-bottom: 5px;
 }
-
+.mainhed {
+    height: 30px;
+}
+.subhed {
+    height: 20px;
+}
+.descp {
+    height: 10px;
+}
 @media screen and (max-width: 768px) {
     .linked,
     .about-section,
@@ -293,16 +301,13 @@ h6 {
         margin-right: 0;
         margin-top: 10px;
     }
-    .experiences h2,
-    .educate h2 {
-        font-size: 14px;
-        flex-wrap: nowrap;
-        overflow: auto;
+    .mainhed {
+    font-size: 12px;
     }
-    .experiences h3,
-    .educate h3 {
-        font-size: 10px;
-        flex-wrap: nowrap;
-        overflow: auto;
+    .subhed {
+    font-size: 8px;
+    }
+    .descp {
+    font-size: 4px;
     }
 }
