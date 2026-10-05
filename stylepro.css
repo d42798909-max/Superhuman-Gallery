@@ -263,15 +263,15 @@ h6 {
 }
 .mainhed {
     height: 30px;
-    padding: 1px;
+    padding: 4px;
 }
 .subhed {
     height: 20px;
-    padding: 1px;
+    padding: 4px;
 }
 .descp {
     height: 10px;
-    padding: 1px;
+    padding: 4px;
 }
 @media screen and (max-width: 768px) {
     .linked,
