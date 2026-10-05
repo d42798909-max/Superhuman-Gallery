@@ -85,6 +85,7 @@ h4 {
 @media screen and(max-width: 768px) {
     .gallery {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-column: 1fr;
     }
         .superhero {
             width: 100%;
