@@ -293,4 +293,8 @@ h6 {
         margin-right: 0;
         margin-top: 10px;
     }
+    .experiences h3{
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
 }
