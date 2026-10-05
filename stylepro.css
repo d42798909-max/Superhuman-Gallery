@@ -302,12 +302,15 @@ h6 {
         margin-top: 10px;
     }
     .mainhed {
+    height: 12px;
     font-size: 10px;
     }
     .subhed {
+    height: 10px;
     font-size: 8px;
     }
     .descp {
-    font-size: 4px;
+    height: 8px;
+    font-size: 6px;
     }
 }
