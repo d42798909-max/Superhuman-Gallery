@@ -61,6 +61,7 @@ button {
 }
 
 .button-container {
+    display: flex;
     flex-direction: row;
 }
 
@@ -85,9 +86,19 @@ h4 {
 @media screen and (max-width: 768px) {
     .gallery {
         grid-template-columns: 1fr;
+        width: 90%;
     }
         .superhero {
-            width: 100%;
+            width: 90%;
             height: auto;
+    }
+    img {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .content-container {
+        flex-direction: column;
     }
 }
