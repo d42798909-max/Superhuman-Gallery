@@ -16,6 +16,7 @@ body {
     background-color: #FFFFFF;
     width: 100%;
     height: auto;
+    overflow: auto;
 }
 
 .logo-container {
