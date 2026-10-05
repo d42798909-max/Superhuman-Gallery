@@ -293,7 +293,9 @@ h6 {
         margin-right: 0;
         margin-top: 10px;
     }
-    .experiences h3{
+    .experiences h3,
+    .educate h3 {
+        font-size: 1rem;
         flex-wrap: nowrap;
         overflow: auto;
     }
