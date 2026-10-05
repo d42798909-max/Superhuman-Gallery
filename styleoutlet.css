@@ -1,17 +1,6 @@
 body {
     background-color: #2B3A42;
 }
-
-@media (max-width: 768px) {
-    .gallery {
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-        .superhero {
-            width: 100%;
-            height: auto;
-    }
-}
-
 h1 {
     text-shadow: 2px 2px 4px #bc1c1c;
     color: #bc1c1c;
@@ -92,4 +81,13 @@ h4 {
     color: white;
     font-size: 18px;
     margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+        .superhero {
+            width: 100%;
+            height: auto;
+    }
 }
